@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+rm -rf drupal/sites/
+ln -s ../sites drupal/sites
+
+cp -a hooks/* .git/hooks
+

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cd drupal
+git stash
+cd ..
+git submodule update --init
+rm -rf drupal/sites
+ln -s ../sites drupal/sites
+

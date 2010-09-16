@@ -1,0 +1,38 @@
+git clone --recursive git://github.com/bluedroplet/drupal-git-base.git mysite.com
+cd mysite.com
+
+
+// select a specific release of drupal (optional)
+cd drupal
+git tag
+git checkout 7.0-alpha7
+cd ..
+git add drupal
+git commit -m "Checkout drupal 7.0-alpha7."
+
+
+mv drupal/sites/ .
+./setup
+
+// now install drupal
+
+git add sites
+git commit -m "Add sites directory."
+
+
+// add a new module
+git submodule add git://git.drupal.org/project/devel.git sites/all/modules/devel
+cd sites/all/modules/devel/
+git tag
+git checkout 7.x-1.0-beta2
+cd ../../../..
+git add sites/all/modules/devel/
+git commit -m "Add devel-7.x-1.0-beta2."
+
+
+
+// make a clone of the repository
+git clone --recursive mysite.com test
+cd test
+./setup
+
