@@ -21,7 +21,7 @@ git commit -m "Add sites directory."
 
 
 // add a new module
-git submodule add git://git.drupal.org/project/devel.git sites/all/modules/devel
+git submodule add git://git.drupalcode.org/project/devel.git sites/all/modules/devel
 cd sites/all/modules/devel/
 git tag
 git checkout 7.x-1.0-beta2
