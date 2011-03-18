@@ -10,3 +10,6 @@
 [submodule "sites/all/modules/ctools"]
 	path = sites/all/modules/ctools
 	url = git://git.drupalcode.org/project/ctools.git
+[submodule "sites/all/modules/panels"]
+	path = sites/all/modules/panels
+	url = git://git.drupalcode.org/project/panels.git
