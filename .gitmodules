@@ -4,3 +4,9 @@
 [submodule "sites/all/modules/devel"]
 	path = sites/all/modules/devel
 	url = git://git.drupalcode.org/project/devel.git
+[submodule "sites/all/modules/views"]
+	path = sites/all/modules/views
+	url = git://git.drupalcode.org/project/views.git
+[submodule "sites/all/modules/ctools"]
+	path = sites/all/modules/ctools
+	url = git://git.drupalcode.org/project/ctools.git
