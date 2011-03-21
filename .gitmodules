@@ -22,3 +22,21 @@
 [submodule "sites/all/modules/libraries"]
 	path = sites/all/modules/libraries
 	url = git://git.drupalcode.org/project/libraries.git
+[submodule "sites/all/modules/commerce"]
+	path = sites/all/modules/commerce
+	url = git://git.drupalcode.org/project/commerce.git
+[submodule "sites/all/modules/rules"]
+	path = sites/all/modules/rules
+	url = git://git.drupalcode.org/project/rules.git
+[submodule "sites/all/modules/entity"]
+	path = sites/all/modules/entity
+	url = git://git.drupalcode.org/project/entity.git
+[submodule "sites/all/modules/addressfield"]
+	path = sites/all/modules/addressfield
+	url = git://git.drupalcode.org/project/addressfield.git
+[submodule "sites/all/modules/commerce_paypal"]
+	path = sites/all/modules/commerce_paypal
+	url = git://git.drupalcode.org/project/commerce_paypal.git
+[submodule "sites/all/modules/amazon"]
+	path = sites/all/modules/amazon
+	url = git://git.drupalcode.org/project/amazon.git
