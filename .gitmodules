@@ -40,3 +40,12 @@
 [submodule "sites/all/modules/amazon"]
 	path = sites/all/modules/amazon
 	url = git://git.drupalcode.org/project/amazon.git
+[submodule "sites/all/modules/fbconnect"]
+	path = sites/all/modules/fbconnect
+	url = git://git.drupalcode.org/project/fbconnect.git
+[submodule "sites/all/libraries/facebook-php-sdk"]
+	path = sites/all/libraries/facebook-php-sdk
+	url = git://github.com/facebook/php-sdk.git
+[submodule "sites/all/modules/fb"]
+	path = sites/all/modules/fb
+	url = git://git.drupalcode.org/project/fb.git
